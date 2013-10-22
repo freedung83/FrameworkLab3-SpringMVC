@@ -1,0 +1,162 @@
+/*검색*/
+.search{width:100%;margin-bottom:16px;background-image:url(../images/common/bg_search.gif);color:#444444;background-repeat: repeat-x;border: 1px solid #c7c3c3;width:100%;}
+.search td {padding-right:6px;vertical-align:middle;} 
+.searchin{margin: 6;}
+.searchin th {line-height:24px;font-weight:bold;padding-right:6px;text-align:left; vertical-align:top;} 
+.searchin td {line-height:24px;padding-right:12px;vertical-align:middle;} 
+
+/*테이블 타이틀*/
+.tabletitle {background-color:#fff;margin-top:16px;width:100%;border-top:1px solid  #cccccc;border-left:1px solid  #cccccc;border-right:1px solid  #cccccc;border-bottom:1px solid  #cccccc;}
+.tabletitle th {background-color:#fff;font-size:9pt;padding-left: 6px;padding-right:6px;line-height:16pt;font-weight:bold;}
+.tabletitle td {background-color:#fff;}
+
+/*텝 타이틀*/
+.tabtitle {background-color:#fff;margin-top: 16px;width:100%;}
+.tabtitle  th {background-color:#fff;line-height:16pt;}
+.tabtitle  td {background-color:#f9f9f9;border-top:1px solid  #cccccc;border-left:1px solid  #cccccc;border-right:1px solid  #cccccc;border-bottom:1px solid  #cccccc;}
+
+/*위 칼라라인 없는 테이블*/
+.table2 {width:100%;border:1px solid #ccc;border-collapse:collapse;font-weight: normal;margin-bottom: 16px;}
+.table2 th, .table2 td {height:24px;vertical-align:middle;font-weight:100;padding-left: 0px;}
+.table2 th{  line-height:24px;font-size:9pt; background-color:#f8f8f8; font-weight:nomal; text-align:center; letter-spacing:-1px;border-bottom:1px solid #ddd;;border-right:1px solid #ddd;}
+.table2 td { background-color:#fff; font-weight:nomal;  padding-left:4px;border-right:1px solid #ddd;color:#666666;border-bottom:1px solid #ddd;text-aling:center;}
+.table2 select{color:#666;}
+
+/* 테이블하단 버튼 */
+.btn {width:100%;height:30px;}
+
+/*테이블하단라인*/
+.line {background-color: #999999;height: 1px;}
+
+/*텝버튼*/
+tabfont {margin:0;padding:0;font: bold 11px 돋움,돋움;}
+#tabs {float:left;width:100%;font-size:100%;line-height:normal;}
+#tabs ul {margin:0;list-style:none;}
+#tabs li {display:inline;margin:0;padding:0;}
+#tabs a {float:left;background:url("../images/common/tableft.gif") no-repeat left top;margin:0;padding:0 2 0 4px;text-decoration:none;}
+#tabs a span {float:left;display:block;background:url("../images/common/tabright.gif") no-repeat right top;padding:5px 7x 4px 2px;color:#333333;}
+#tabs a:hover span {color:#333333;}
+#tabs a:hover {background-position:0% -42px; }
+#tabs a:hover span {background-position:100% -42px;}
+#tabs #current a {background-position:0% -42px;}
+#tabs #current a span {background-position:100% -42px;}
+
+    #tabsF {
+      margin:0;
+      float:left;
+      width:100%;
+      font-size:100%;
+      line-height:normal;      
+      }
+    #tabsF ul {
+        margin:0;
+        padding:10px 10px 0 0px;
+        list-style:none;
+      }
+    #tabsF li {
+      display:inline;
+      margin:0;
+      padding:0;
+      }
+    #tabsF a {
+      float:left;
+      background:url("../images/common/tableftF.gif") no-repeat left top;
+      margin:0;
+      padding:0 0 0 4px;
+      text-decoration:none;
+      }
+    #tabsF a span {
+      float:left;
+      display:block;
+      background:url("../images/common/tabrightF.gif") no-repeat right top;
+      padding:5px 15px 4px 6px;
+      color:#666;
+      text-align: center;
+      }
+    /* Commented Backslash Hack hides rule from IE5-Mac \*/
+    #tabsF a span {float:none;}
+    /* End IE5-Mac hack */
+    #tabsF a:hover span {
+      color:#FFF;
+      }
+    #tabsF a:hover {
+      background-position:0% -42px;
+      }
+    #tabsF a:hover span {
+      background-position:100% -42px;
+      }
+
+        #tabsF #current a {
+                background-position:0% -42px;
+        }
+        #tabsF #current a span {
+                background-position:100% -42px;
+        }
+        
+	#tabsF ul li a.on { background-position:0% -42px; }
+	#tabsF ul li a.on span { background-position:100% -42px; }
+
+.button4 {
+	display: inline-block;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 11px/100% 돋움,돋움;
+	padding: .3em 1em .20em;
+	margin: 2;
+	text-shadow: none;
+	-webkit-border-radius: .5em; 
+	-moz-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+.button4:hover {
+	text-decoration: none;
+}
+.button4:active {
+	position: relative;
+	top: 1px;
+}
+
+.gray {
+	color: #EEF3E2;
+	border: solid 1px #818181;
+	background: #F6F9ED;
+	background: -webkit-gradient(linear, left top, left bottom, from(#F6F9ED), to(#EBECE4));
+	background: -moz-linear-gradient(top,  #F6F9ED,  #EBECE4);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#F6F9ED', endColorstr='#EBECE4');
+}
+/*
+.gray:hover {
+	background: #EBECE4;
+	background: -webkit-gradient(linear, left top, left bottom, from(#F6F9ED), to(#EBECE4));
+	background: -moz-linear-gradient(top,  #F6F9ED,  #EBECE4);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#F6F9ED', endColorstr='#EBECE4');
+}
+*/
+.gray:active {
+	color: #EBECE4;
+	background: -webkit-gradient(linear, left top, left bottom, from(#F6F9ED), to(#EBECE4));
+	background: -moz-linear-gradient(top,  #F6F9ED,  #EBECE4);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#F6F9ED', endColorstr='#EBECE4');
+}
+
+/*팝업*/
+.popup {padding:12px 20px 20px 20px;background-image: url(../images/common/bg_pop.gif);background-repeat: repeat-x;width:100%;}
+.popup2 {padding:12px 20px 20px 20px;background-repeat: repeat-x;width:100%;}
+.popuptitle {font-size:10pt;color:#333333;font-weight:bold;letter-spacing:-1px;height:30px;}
+
+/*전체메뉴*/
+.smtit { letter-size:10pt;color:#333; text-decoration:none; font-weight:bold;}
+.sm1 { color:#333; padding-left:7px; line-height:22px;font-weight:bold;background-color:#EDEDED;height:22px;  }
+.sm2 {background:url('../images/common/dot01.gif') 6px 7px no-repeat; vertical-align:top; padding-left:12px; padding-top:5px;padding-bottom:2px; font-weight:bold; color:#336a9d; }
+.sm3 a { color:#454545; padding-left:12px; line-height:18px;font-size:8pt;letter-spacing:-1px; }
+.sm3 a:hover { color:#3c88b4; text-decoration:none; }
+.sm3 a:active { color:#3c88b4; text-decoration:none; }
+
+#contents1 { position: relative; width: 1286px; margin: 0 auto; padding: 0 0 30px; }
+#contents1 h2 { height: 30px; margin: 0 0 0px; padding: 4px 0 0 27px; font-size: 18px; line-height: 1; color: #000; letter-spacing: -1px; background: url(../images/header/bg_title.gif) no-repeat; }
+#contents1_inner { padding: 0 15px; }
